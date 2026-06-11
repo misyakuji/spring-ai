@@ -2,9 +2,10 @@ package com.misyakuji.ai.config;
 
 import org.springframework.ai.deepseek.DeepSeekChatModel;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
-@org.springframework.context.annotation.Configuration
+@Configuration
 public class ChatModelConfig {
 
     @Bean
